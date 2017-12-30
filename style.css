@@ -1,0 +1,205 @@
+/* 
+#00A89E = TEAL
+#ED6054 = PASTETL RED
+ */
+
+h1 { 
+	font-family: 'Droid Sans', arial, serif;
+	font-size: 40pt;
+}
+
+li {
+	display: inline; /* Makes the list horizontal */
+	font-family: 'Arial';
+
+}
+
+.goToTop {
+	position: fixed;
+	width: 50px;
+	height: 25px;
+	background-color: #00A89E; 
+	text-align: center;
+	right: 10px;
+	bottom: 10px;
+}
+
+.navMenu {
+	float: right;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.landingPage {
+	padding-top: 270px;
+	padding-bottom: 250px;
+	text-align: center;
+	margin: auto;
+	width: 60%;
+	}
+
+.center {
+	margin: auto;
+    padding: 10px;
+}
+
+
+.team {
+	background-color: #ededed;
+	height: 500px;
+}
+
+.sectionTitle {
+	font-family: 'Droid Sans', arial, serif;
+	color: #00A89E;
+	padding-top: 10px;
+
+}
+
+.CPTEAM {
+	display: inline-block;
+	vertical-align: top;
+/*	border: 3px solid green;*/
+	width: 25%;
+	margin-left: 75px;
+}
+
+.members {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+h3 {
+	font-family: 'Droid Sans', arial, serif;
+	color: #00A89E;
+	font-size: 25pt;
+	text-align: center;
+	padding-top: 50px;
+}
+
+h4 {
+	font-family: 'Droid Sans', arial, serif;
+	color: #00A89E;
+	font-size: 20pt;
+	margin-bottom: 20px;
+}
+
+p {
+	font-family: 'Droid Sans', arial, serif;
+	margin: auto;
+}
+
+li {
+	font-family: 'Droid Sans', arial, serif;
+}
+
+footer {
+	text-align: center;
+}
+
+a span {
+	font-family: 'Droid Sans', arial, serif;
+	color: white;
+}
+
+
+a:link, a:visited {
+    /*background-color: #ED6054;*/
+    color: black;
+/*    padding: 14px 25px;*/
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    color: #ED6054;
+}
+
+
+
+.section03 {
+	padding-bottom: 100px;
+}
+
+.contact {
+	padding-bottom: 200px;
+}
+
+.heading {
+	text-align: center;
+	color: black;
+}
+
+.joinTheFun {
+	width: 500px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10%;
+}
+
+/*.section03 {
+	display: inline-block;
+}*/
+
+#imageSize {
+	width: 100%;
+	display: inline-block;
+}
+
+
+
+/* quick reset */
+/** {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}*/
+
+/* relevant styles */
+.img__wrap {
+  position: relative;
+  display: inline-block;
+}
+
+.img__description {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding-top: 50%;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+
+
+#uiux {
+	color: #ED6054;
+}
+#uiux:hover {
+	color: #00A89E;
+}
+
+
+#awww {
+	color: #00A89E;
+}
+#awww:hover {
+	color: #ED6054;
+}
