@@ -10,3 +10,5 @@ Skills taught:
 * HTML
 * CSS
 * Fundamentals of web programming languages, concepts and structures.
+
+You can view the sample website which was used during the workshop [here](https://withoutwax.github.io/AWWW-coding-workshop-01/).
